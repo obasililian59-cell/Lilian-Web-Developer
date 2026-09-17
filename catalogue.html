@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>GreenField Supplies - Owerri</title>
+ <style>
+  .catalogue {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+   gap: 25px;
+  }
+
+  .product {
+   background: white;
+   border-radius: 12px;
+   overflow: hidden;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   text-align: center;
+  }
+
+  .product img {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+  }
+
+  .product-body {
+   padding: 15px;
+  }
+
+  .product-body h4 {
+   color: #2e7d32;
+   margin-block-end: 8px;
+  }
+
+  .price {
+   font-weight: bold;
+   color: #d32f2f;
+  }
+ </style>
+</head>
+
+<body>
+
+ <section id="catalogue">
+  <h2>Our Catalog</h2>
+  <div class="catalogue">
+   <div class="product">
+    <img src="picture2.png" alt="Day Old Chicks">
+    <div class="product-body">
+     <h4>Day-Old Broilers</h4>
+     <p>Vaccinated & Hardened</p>
+     <p class="price">₦650 / chick</p>
+    </div>
+   </div>
+   <div class="product">
+    <img src="hero-image.png" alt="Poultry Feed">
+    <div class="product-body">
+     <h4>Starter Feed 25kg</h4>
+     <p>Week 1-3</p>
+     <p class="price">₦8,500</p>
+    </div>
+   </div>
+   <div class="product">
+    <img src="Drinkers.png" alt="Drinkers of different sizes">
+    <div class="product-body">
+     <h4>Drinkers set</h4>
+     <p>Durable Plastic</p>
+     <p class="price">₦4,000</p>
+    </div>
+   </div>
+   <div class="product">
+    <img src="picture1.png" alt="Layer Chicks">
+    <div class="product-body">
+     <h4>Day-Old Layers</h4>
+     <p>High Egg Production</p>
+     <p class="price">₦700 / chick</p>
+    </div>
+   </div>
+  </div>
+ </section>
+
+</body>
+
+</html>
